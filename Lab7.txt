@@ -1,0 +1,13 @@
+Steven Moyes
+Lab 7
+4/16/12
+
+[Q1] The benefits to using Selenium are in its ability to automate web testing. Being able to automate this testing reduces tedium in testing web frameworks. 
+[Q2] People who visit your website aren't robots. They will be unable to click hidden links (unlike Selenium), they will be able to answer Captcha questions for security. Further, if popups are blocked, the windows may not open. Selenium also doesn't test aesthetics like a real user would (which for a website, is a very important business rule). 
+[Q3] <tr><td><a href="myCase.html">MyCase</a></td></tr>
+[Q4]	<tr>
+			<td>click</td>
+			<td>//a[@id='myLink']/</td>
+			<td></td>
+		</tr>
+[Q5] HTML is quick and easy to read, write, and parse. Putting the tests into tables allows for quick modification of HTML files without using the Selenium IDE. HTML tests are static and must be run in a browser. To test changing information, PHP must also be used. 
